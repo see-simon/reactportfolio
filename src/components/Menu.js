@@ -4,8 +4,6 @@ import Home from "../components/Home";
 
 const Menu =()=>{
     return(
-
-
         <Router>
         {/* <nav>
           <Link to="/">Getstarted</Link>
@@ -14,8 +12,6 @@ const Menu =()=>{
   
           <Link to="/Register">Register</Link>
         </nav> */}
-  
-        
         <Routes>
           <Route path ="/" element={<Home/>}/>
           {/* <Route path="/Register" element={<Register />} />
