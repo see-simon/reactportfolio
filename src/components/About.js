@@ -17,7 +17,7 @@ const About =()=>{
     <ul>
         <li><Link to="/Home">home</Link></li>
         <li><Link to="/About">about</Link></li>
-        <li><Link to="/Education">education</Link></li>
+        <li><Link to="/Education">Skills</Link></li>
        
         <li><Link href="/Contacts">contact</Link></li>
     </ul>
@@ -33,7 +33,7 @@ const About =()=>{
 
              <div class="info">
                  <h3> <span> name : </span>thobejane mpelemane simon</h3>
-                 <h3> <span> age : </span> 25 </h3>
+                 <h3> <span> age : </span> 27 </h3>
                  <h3> <span> qualification : </span> information technology </h3>
                  <h3> <span> post : </span> front end developer </h3>
                  <h3> <span> language : </span> pedi </h3>

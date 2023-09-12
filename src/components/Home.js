@@ -21,11 +21,14 @@ const Home = () => {
               <Link to="/About">about</Link>
             </li>
             <li>
-              <Link to="/Education">education</Link>
+              <Link to="/Projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/Education">Skills</Link>
             </li>
 
             <li>
-              <Link href="/Contacts">contact</Link>
+              <Link to="/Contacts">contact</Link>
             </li>
           </ul>
         </nav>
@@ -50,11 +53,11 @@ const Home = () => {
           relationships with all colleagues. I am flexible, reliable and possess
           excellent time keeping skills.
         </p>
-        <a href="#about">
+        <Link to="/About">
           <button class="btn">
             about me <i class="fas fa-user"></i>
           </button>
-        </a>
+        </Link>
       </section>
 
       {/* <!-- home section ends --> */}

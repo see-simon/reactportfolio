@@ -4,6 +4,7 @@ import Home from "../components/Home";
 import Contacts from "./Contacts";
 import About from "./About";
 import Education from "./Education";
+import Projects from "./projects";
 
 const Menu =()=>{
     return(
@@ -13,7 +14,7 @@ const Menu =()=>{
           <Route path ="/" element={<Home/>}/>
           <Route path="/Home" Component={Home} />
           <Route path="/About" Component={About}/>
-
+          <Route path="/Projects" Component={Projects}/>
           <Route path="/Contacts" Component={Contacts} />
           <Route path="/Education" Component={Education}/>
         </Routes>

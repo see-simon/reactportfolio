@@ -101,6 +101,19 @@ header .user img{
     margin-bottom: 1rem;
     border:.7rem solid var(--yellow);
 }
+.firebase {
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.7rem solid var(--yellow);
+    
+}
+.languages{
+    flex-direction: row;
+    
+}
 
 header .user .name{
     font-size: 3.5rem;
