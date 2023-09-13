@@ -102,17 +102,23 @@ header .user img{
     border:.7rem solid var(--yellow);
 }
 .firebase {
-    height:10rem;
-    width:10rem;
+    height:5rem;
+    width:5rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border:.3rem solid var(--yellow);
+    /* padding: px; */
     
+}
+.contactsnnnnn{
+    flex-direction: column;
+    /* background-color: #eee; */
+   
 }
 .languages{
     flex-direction: row;
-    
+
 }
 
 header .user .name{

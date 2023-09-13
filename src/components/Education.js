@@ -4,6 +4,14 @@ import firebaseImage from "./images/FB.png";
 import javasript from "./images/javascript.webp";
 import postgres from "./images/Postgresql_elephant.svg.png";
 import typescript from "./images/Typescript_logo_2020.svg.png";
+import nodejs from "./images/nodejs-development-services.png"
+import reactjs from "./images/React-icon.svg.png"
+import angular from "./images/download.png"
+import c from "./images/download (1).png"
+import docker from "./images/ywjqppks5ffcnbfjuttq.webp"
+import git from "./images/git.png"
+import figma from "./images/figma.webp"
+import trello from "./images/trello.webp"
 
 import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom";
 
@@ -25,10 +33,13 @@ const Education = () => {
             <li>
               <Link to="/About">about</Link>
             </li>
+           
             <li>
               <Link to="/Education">Skills</Link>
             </li>
-
+            <li>
+              <Link to="/Projects">Projects</Link>
+            </li>
             <li>
               <Link to="/Contacts">contact</Link>
             </li>
@@ -45,64 +56,51 @@ const Education = () => {
         <div class="box-container">
           <div class="box">
             <i class="fas fa-graduation-cap"></i>
-            <span>2021 - 2022</span>
+            {/* <span>2021 - 2022</span> */}
             <h3>Languages & Databases</h3>
 
-            <p>
-              mobile development using react native and react js <br /> links:{" "}
-              <a href="https://github.com/see-simon/hoteluser.git">
-                <p>https://github.com/see-simon/hoteluser.git</p>
-              </a>
+           
               <div className="languages">
 
                 <img className="firebase" src={typescript} alt="My Image" />
                 
                 <img className="firebase" src={javasript} alt="My Image" />
+                <img className="firebase" src={c} alt="My Image" />
                
               </div>
               <p> database: firebase</p>
               <img className="firebase" src={firebaseImage} alt="My Image" />
               <br />
               <img className="firebase" src={postgres} alt="My Image" />
+              <br/><br/>
               <span>2023 - 2024</span>
-            </p>
+           
           </div>
 
           <div class="box">
             <i class="fas fa-graduation-cap"></i>
-            <span>2021 - 2022</span>
+            {/* <span>2021 - 2022</span> */}
             <h3>Frameworks & Technologies</h3>
-            <p>
-              mobile development using react native and react js <br />
-              <br /> links
-              <br />
-              <br />
-              <a href="https://github.com/Lovers-1/SocietyApp.git">
-                <p>https://github.com/Lovers-1/SocietyApp.git</p>
-              </a>{" "}
-              <br />
-              <br />
-              <a href="https://github.com/Thapelo-git/e-societyAdmin-master.git">
-                <p>https://github.com/Thapelo-git/e-societyAdmin-master.git</p>
-              </a>
+            
               <br /> <br />
-              <p> database: firebase</p>
-              <img className="firebase" src={firebaseImage} alt="My Image" />
-            </p>
+              
+              <img className="firebase" src={nodejs} alt="My Image" />
+              <img className="firebase" src={reactjs} alt="My Image" />
+              <img className="firebase" src={angular} alt="My Image" />
+              <br/><br/>
             <span>2023 - 2024</span>
           </div>
 
           <div class="box">
             <i class="fas fa-graduation-cap"></i>
-            <span>2021 - 2022</span>
+            {/* <span>2021 - 2022</span> */}
             <h3>Tools & Platforms</h3>
-            <p>
-              i create products that provide meaningful and relevant experiences
-              to users. This involves the design of the entire process of
-              acquiring and integrating the product, including aspects of
-              branding, design, usability and function.
-            </p>
+            <img className="firebase" src={docker} alt="My Image" />
+            <img className="firebase" src={git} alt="My Image" />
+            <img className="firebase" src={figma} alt="My Image" />
+            <img className="firebase" src={trello} alt="My Image" />
             <br />
+            <br/>
             <span>2023 - 2024</span>
           </div>
         </div>

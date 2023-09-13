@@ -1,8 +1,39 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom";
+import Image from "./images/image.jpg";
+
 
 const Projects = () => {
   return (
     <di>
+        <header>
+        <div class="user">
+          <img src={Image} alt="My Image" />
+          <h3 class="name">mpelemane simon</h3>
+          <p class="post">full stack developer</p>
+        </div>
+
+        <nav class="navbar">
+          <ul>
+            <li>
+              <Link to="/Home">home</Link>
+            </li>
+            <li>
+              <Link to="/About">about</Link>
+            </li>
+           
+            <li>
+              <Link to="/Education">Skills</Link>
+            </li>
+            <li>
+              <Link to="/Projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/Contacts">contact</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <section class="education" id="education">
         <h1 class="heading">
           {" "}
@@ -46,6 +77,7 @@ const Projects = () => {
               </a>
               <br /> <br />
               <p> database: firebase</p>
+              
               
             </p>
             <span>2023 - 2024</span>

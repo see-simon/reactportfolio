@@ -20,13 +20,13 @@ const Home = () => {
             <li>
               <Link to="/About">about</Link>
             </li>
-            <li>
-              <Link to="/Projects">Projects</Link>
-            </li>
+           
             <li>
               <Link to="/Education">Skills</Link>
             </li>
-
+            <li>
+              <Link to="/Projects">Projects</Link>
+            </li>
             <li>
               <Link to="/Contacts">contact</Link>
             </li>
