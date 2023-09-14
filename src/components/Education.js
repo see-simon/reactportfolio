@@ -50,10 +50,14 @@ const Education = () => {
       <section class="education" id="education">
         <h1 class="heading">
           {" "}
-          my <span>education</span>{" "}
+          my <span>Skills</span>{" "}
         </h1>
-
+        <div className="skillscontainer">
+        <h3  className="skills">I love to learn new things and experiment with new technologies.
+These are some of the major languages, technologies, tools and platforms I have worked with:</h3>
+</div>
         <div class="box-container">
+          
           <div class="box">
             <i class="fas fa-graduation-cap"></i>
             {/* <span>2021 - 2022</span> */}

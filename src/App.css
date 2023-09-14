@@ -18,6 +18,16 @@
     background:var(--yellow);
     color:#333;
 }
+.skillscontainer{
+
+    margin: 15rem;
+}
+.skills{
+text-align: center;
+    color: #eee;
+    font-size: 3rem;
+   
+}
 
 html{
     font-size: 62.5%;
