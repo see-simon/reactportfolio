@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom";
 import linkedIn from "./images/linkedIn.webp";
 import twitter from "./images/twitter.png";
 import facebook from './images/facebook.png'
+import app from './images/Screenshot 2023-09-15 at 08.07.37.png'
 
 const About = () => {
   return (
@@ -51,15 +52,15 @@ const About = () => {
             </h3>
             <h3>
               {" "}
-              <span> age : </span> 27{" "}
+              {/* <span> age : </span> 27{" "} */}
             </h3>
             <h3>
               {" "}
-              <span> qualification : </span> information technology{" "}
+              <span> qualification : </span> Software development{" "}
             </h3>
             <h3>
               {" "}
-              <span> post : </span> front end developer{" "}
+              <span> post : </span> full stack{" "}
             </h3>
             <h3>
               {" "}
@@ -85,17 +86,24 @@ const About = () => {
               <h3>porject completed</h3>
             </div>
           </div>
+
+          
         </div>
+        <div className="projects">
+          <h3 className="text">projects</h3>
+          <img className="pic" src={app} alt="My Image" />
+          </div>
       </section>
 
      
+     <div className="contactcontainer">
           <div class="content">
             <h3 class="title">contact info</h3>
 
             <div class="info">
               <h3>
                 {" "}
-                <i class="fas fa-envelope"></i> sea6580@gmail.com{" "}
+                <i class="fas fa-envelope" color="white"></i> sea6580@gmail.com{" "}
               </h3>
               <h3>
                 {" "}
@@ -116,14 +124,15 @@ const About = () => {
           <a href="https://www.linkedin.com/feed/">
             <img className="firebase" src={linkedIn} alt="My Image" />
             </a>
-            <br/>
+            {/* <br/> */}
             <a href="https://www.facebook.com/login/">
             <img className="firebase" src={twitter} alt="My Image" />
             </a>
-            <br/>
+            {/* <br/> */}
             <a href="https://www.facebook.com/login/">
             <img className="firebase" src={facebook} alt="My Image" />
             </a>
+          </div>
           </div>
         </div>
     
