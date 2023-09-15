@@ -31,9 +31,9 @@ const About = () => {
             <li>
               <Link to="/Projects">Projects</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/Contacts">contact</Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>
@@ -90,7 +90,7 @@ const About = () => {
           
         </div>
         <div className="projects">
-          <h3 className="text">projects</h3>
+          <h1 className="text">projects</h1>
           <img className="pic" src={app} alt="My Image" />
           </div>
       </section>

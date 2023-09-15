@@ -28,9 +28,9 @@ const Projects = () => {
             <li>
               <Link to="/Projects">Projects</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/Contacts">contact</Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>
